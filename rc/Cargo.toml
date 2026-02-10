@@ -1,0 +1,16 @@
+[package]
+name = "rc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = { version = "0.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7"
+infrared = "0.14"
+embassy-executor = { version = "0.9", features = ["arch-cortex-m", "executor-thread"] }
+embassy-stm32 = { version = "0.5", features = ["stm32l476rg", "time-driver-any", "exti", "memory-x"] }
+embassy-time = "0.5"
+embassy-sync = "0.7"
+defmt = "1.0"
+defmt-rtt = "1.1"
+panic-probe = "1.0"
