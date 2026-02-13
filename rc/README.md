@@ -12,3 +12,5 @@ Command Mapping for numbers:
 <kbd>7</kbd> -> 66
 <kbd>8</kbd> -> 82
 <kbd>9</kbd> -> 74
+<kbd><<</kbd> -> 68
+<kbd>>></kbd> -> 64
